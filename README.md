@@ -8,4 +8,4 @@ Please clone the repo, remove the remote and commit your solutions to your own r
 
 * [jQuery](https://github.com/bitmakerlabs/javascript_fundamentals/wiki/6-jQuery)
 * [jQuery - Try jQuery by CodeSchool Exercises](http://www.codeschool.com/courses/try-jquery)
-* [jQuery Exercises](https://github.com/bitmakerlabs/javascript_fundamentals/blob/master/jquery_fundamentals/index.html)
+* [jQuery Exercises](https://github.com/bitmakerlabs/jquery_fundamentals/blob/master/jquery_fundamentals/index.html)
