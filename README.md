@@ -3,9 +3,11 @@ jquery_fundamentals
 
 We've put together a condensed set of tutorials to take you through the fundamentals of jQuery. They have been curated in a way that gives you enough information to figure out the following exercises for that section.
 
-Please clone the repo, remove the remote and commit your solutions to your own repo labelled javascript_fundamentals. You should read each tutorial and complete the corresponding exercises for each. 
+Please clone the repo, remove the remote and commit your solutions to your own repo labelled javascript_fundamentals. You should read each tutorial and complete the corresponding exercises for each.
 
 * [The DOM](https://github.com/bitmakerlabs/jquery_fundamentals/wiki/1-the-dom)
+* [DOM exercises](https://github.com/bitmakerlabs/jquery_fundamentals/blob/master/dom.js)
+* [JS Optional Exercises](https://github.com/bitmakerlabs/jquery_fundamentals/blob/master/optional.js)
 * [jQuery](https://github.com/bitmakerlabs/jquery_fundamentals/wiki/2-jquery)
-* [jQuery - Try jQuery by CodeSchool Exercises](http://www.codeschool.com/courses/try-jquery)
 * [jQuery Exercises](https://github.com/bitmakerlabs/jquery_fundamentals/blob/master/jquery_fundamentals/index.html)
+* [jQuery - Try jQuery by CodeSchool Exercises](http://www.codeschool.com/courses/try-jquery)
