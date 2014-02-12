@@ -13,4 +13,4 @@ We've put together a condensed set of tutorials to take you through the fundamen
 * [jQuery Exercises](https://github.com/bitmakerlabs/jquery_fundamentals/blob/master/jquery_fundamentals/index.html)
 * [jQuery - Try jQuery by CodeSchool Exercises](http://www.codeschool.com/courses/try-jquery)
 
-Please clone the repo, remove the remote and commit your solutions to your own repo labelled jquery_fundamentals. You should read each tutorial and complete the corresponding exercises for each.
+Please fork the repo and commit your solutions to your own repo labelled jquery_fundamentals. You should read each tutorial and complete the corresponding exercises for each.
