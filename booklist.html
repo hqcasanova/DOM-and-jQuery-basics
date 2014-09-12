@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <title>My book list</title>
+  <style type="text/css">
+    .booklist {line-height: 1.5em}
+    .booklist img {
+      width: 10%;
+      height: auto;
+      margin-right: 2%;
+      vertical-align: middle;
+    }
+    .notread {background-color: rgba(255,0,0,.4)}
+  </style>
+</head>
+<body>
+  <h1>My book list</h1>
+  
+  <script>
+    var books = [
+        {
+         title: 'JavaScript: The Good Parts',
+         author: 'Douglas Crockford',
+         cover: 'http://ecx.images-amazon.com/images/I/71M32wxOOmL.jpg',
+         alreadyRead: true
+        },
+        {
+         title: 'Speaking JavaScript',
+         author: 'Axel Rauschmayer',
+         cover: 'http://ecx.images-amazon.com/images/I/51H3g6Bts8L._SX258_BO1,204,203,200_.jpg',
+         alreadyRead: false
+        }
+      ],
+      docFrag = document.createDocumentFragment(),   //performance not a big deal here, but just in case
+      itemElem = document.createElement('li'),       //create once, clone many times
+      ulElem = document.createElement('ul'),
+      newItem,
+      numBooks,
+      i = 0;
+
+    //'Blueprint' structure for every book item
+    itemElem.appendChild(document.createElement('img'));
+    itemElem.appendChild(document.createTextNode(''));
+
+    ulElem.className = 'booklist';
+    numBooks = books.length;
+    for (i; i < numBooks; i += 1) {
+        newItem = itemElem.cloneNode(true);
+        newItem.firstChild.src = books[i].cover;
+        newItem.lastChild.nodeValue = books[i].title + ' by ' + books[i].author;    //let's assume support for IE8 and below required
+        if (!books[i].alreadyRead) {
+            newItem.className = 'notread';
+        }
+        docFrag.appendChild(newItem);
+    }
+    ulElem.appendChild(docFrag);
+    document.body.appendChild(ulElem);
+
+  </script>
+</body>
+</html>
