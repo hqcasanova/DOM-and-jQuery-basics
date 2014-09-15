@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'eraserregular';
+    src: url('eraserregular-webfont.eot');
+    src: url('eraserregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('eraserregular-webfont.woff2') format('woff2'),
+         url('eraserregular-webfont.woff') format('woff'),
+         url('eraserregular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body, td, tr, table, p, div {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+  background-color: black;
+}
+body {
+  background: black url('blackboard.jpg') repeat center center;
+  background-size: cover;
+}
+#modal {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+#modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
+.message {
+  display: inline-block;
+  padding: 1em;
+  vertical-align: middle;
+  line-height: 2.5em;
+  font-family: sans-serif;
+  color: rgb(10,10,10);
+  border-radius: .5em;
+  background-color: rgb(250,250,250);
+}
+#winner {
+  font-family: 'eraserregular', sans-serif;
+  font-size: 3em;
+}
+table {
+  width: 100%;
+  height: 100%;
+}
+.dividerh {
+  position: absolute;
+  height: 29px;
+  width: 100%;
+  top: 31.5%;
+  background: url('crayonh.png') no-repeat top center;
+  background-size: cover;
+}
+.dividerh.second {
+  top: 64.5%;
+}
+.dividerv {
+  position: absolute;
+  width: 29px;
+  height: 100%;
+  left: 32.3%;
+  background: url('crayonv.png') no-repeat top left;
+  background-size: cover;
+}
+.dividerv.second {
+  left: 65.4%;
+}
+td {
+  width: 33%;
+  height: 33%;
+  text-align: center;
+  font-family: 'eraserregular';
+  font-size: 4em;
+  color: white;
+}
+.cross:hover:before, .nought:hover:before {
+  display: inline-block;
+  width: 2em;
+  line-height: 2em;
+  color: black;
+  text-align: center;
+  background: url('chalk_circle.png') no-repeat center center;
+  background-size: contain;
+}
+
+.cross:hover:before {
+  content: 'X';
+}
+.nought:hover:before {
+  content: 'O';
+}
+
+@media only screen and (min-width: 860px) {
+  body {
+    font-size: 120%;
+  }
+}
+
+@media only screen and (min-width: 1360px) {
+  body {
+    font-size: 140%;
+  }
+}
