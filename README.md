@@ -1,6 +1,8 @@
 The DOM and jQuery
 ===================
 
+NOTE: For the Tic Tac Toe exercise, please refer to the [gh-pages branch](https://github.com/hqcasanova/jquery_fundamentals/tree/gh-pages). The actual game can be tested [here](http://hqcasanova.github.io/jquery_fundamentals/).
+
 The DOM represents our HTML elements as objects that we can select and manipulate with JavaScript. This allows us to add, remove, and modify our HTML pages with JavaScript. Here are some exercises that put forth working with the DOM, along with what you've learned so far.
 
 * [The DOM](https://github.com/bitmakerlabs/jquery_fundamentals/wiki/1-the-dom)
