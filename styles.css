@@ -15,7 +15,6 @@ html, body, td, tr, table, p, div {
 }
 html, body {
   height: 100%;
-  background-color: black;
 }
 
 /* Cross-browser wallpaper */
