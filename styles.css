@@ -17,6 +17,12 @@ html, body {
   height: 100%;
 }
 
+.preload-css {
+  background-image: url('chalk_circle.png');
+  width: 0px;
+  height: 0px;
+}
+
 /* Cross-browser background image */
 img {
   z-index: -1;
