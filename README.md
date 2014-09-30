@@ -1,7 +1,9 @@
 The DOM through JavaScript and jQuery
 =====================================
 
-The DOM represents our HTML elements as objects that we can select and manipulate with JavaScript. This allows us to add, remove, and modify our HTML pages with JavaScript. Here are some exercises that put forth working with the DOM through JavaScript and jQuery.
+Part of Bitmaker Labs' Web Development immersive.
+
+The DOM represents our HTML elements as objects that we can select and manipulate with JavaScript.This allows us to add, remove, and modify our HTML pages with JavaScript. Here are some exercises that put forth working with the DOM through JavaScript and jQuery.
 
 * [DOM exercises](https://github.com/hqcasanova/DOM-and-jQuery-basics/blob/master/dom.js)
 * [JS Optional Exercises](https://github.com/hqcasanova/DOM-and-jQuery-basics/blob/master/optional.js)
